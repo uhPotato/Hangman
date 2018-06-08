@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Week 3 - Hangman Game</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hangman Game">
+    <meta name="author" content="Philip David Davies">
+
+	<!-- set up style sheets -->
+	<!-- reset not needed because using bootstrap -->
+	<!-- <link rel="stylesheet" type="text/css" href="/assets/css/reset.css"> -->
+	<!-- Link in locally stored min version of bootstrap.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
+	<!-- Make final css adjustments with personal stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+	<!-- This is what will be initially displayed on the screen -->
+	<!-- Using the bootstrap grid system to lay everything out -->
+	<div class="row">&nbsp;</div>
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<!-- <img src="assets/images/animelogo.png" class="img-responsive" alt="Anime Logo"> -->
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<img src="assets/images/AnimeCharacters.png" class="img-responsive" alt="Anime Characters">
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+	<div class="row">&nbsp;</div>
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-6">
+			<div class="row">
+				<!-- Next three divs have ids for js data manipulation -->
+				<div class="col-md-12" id="instructions"></div>
+				<div class="col-md-12" id="game"></div>
+				<div class="col-md-12" id="stats"></div>
+				<div class="col-md-12" id="guesses"></div>
+			</div>
+		</div>
+		<div class="col-md-3" id="AnimeImage">
+			<!-- This div has the homeImage id which will be used to change image via js -->
+			<img src="assets/images/ThinkingL.jpg" class="img-responsive" alt="AnimeDetective">
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+
+	<!-- Link to game javascript  -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
