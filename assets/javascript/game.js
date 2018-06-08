@@ -3,7 +3,7 @@
 // -----------------------
 
 // Define words that computer will select from
-var wordsList = ["one piece", "full metal alchemist", "naruto", "bleach", "dragon ball z", "baccano", "slam dunk", "food wars", "jojos bizarre adventure", "log horizon", "gundam", "reborn", "bobobo bobo bobobobo", "haikyu", "kuroko no basket", "my hero academia", "black clover", "steins gate", "fate zero", "fate stay night", "outcast", "megalobox", "black lagoon", "no game no life", "yu yu hakusho", "irresponsible captain tylor", "robotech", "attack on titan"];
+var wordsList = ["one piece", "full metal alchemist", "naruto", "bleach", "cowboy bebop", "trigun", "deathnote", "dragon ball z", "baccano", "slam dunk", "food wars", "jojos bizarre adventure", "log horizon", "gundam", "reborn", "bobobo bobo bobobobo", "haikyu", "kuroko no basket", "my hero academia", "black clover", "steins gate", "fate zero", "fate stay night", "outcast", "megalobox", "black lagoon", "no game no life", "yu yu hakusho", "irresponsible captain tylor", "robotech", "attack on titan"];
 
 // Define alphabet letters that user can pick from
 var alphabetLetters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
